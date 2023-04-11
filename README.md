@@ -1,7 +1,7 @@
 # Google Play Store Analytics
 
-#### **Nama : Nur Imam Masri**
-#### **Vulcan Scholarship Algoritma Academy**
+### **Nama : Nur Imam Masri**
+### **Vulcan Scholarship Algoritma Academy**
 
 <img src="https://raw.githubusercontent.com/nurimammasri/Capstone-Flask-UI-P4DA-Algoritma-Data-Science/main/full_capstone.jpeg">
 
@@ -31,7 +31,7 @@ Data yang digunakan pada capstone project ini adalah data hasil scraping dari Go
 - Numpy
 
 ## Rubrics
-Pada capstone ini, Anda diharapkan untuk dapat membangun sebuah aplikasi Flask yang fokus pada tampilan user interface. Langkah pertama yang harus Anda lakukan adalah silahkan download atau clone repositori ini. File pada repositori ini merupakan sebuah skeleton untuk membuat sebuah dashboard aplikasi Flask. Pada bagian `app.py` dan `templates/index.html` ada beberapa bagian yang rumpang dan harus Anda lengkapi. Untuk notes template nya bisa di cek pada [`flask-ui-skeleton-template.ipynb`](https://github.com/nurimammasri/Capstone-Flask-UI-P4DA-Algoritma-Data-Science/blob/main/flask-ui-skeleton-template.ipynb). Beberapa bagian yang harus diperhatikan adalah sebagai berikut:
+Pada capstone ini, Anda diharapkan untuk dapat membangun sebuah aplikasi Flask yang fokus pada tampilan user interface. Langkah pertama yang harus Anda lakukan adalah silahkan download atau clone repositori ini. File pada repositori ini merupakan sebuah skeleton untuk membuat sebuah dashboard aplikasi Flask. Pada bagian [`app.py`](https://github.com/nurimammasri/Capstone-Flask-UI-P4DA-Algoritma-Data-Science/blob/main/app.py) dan [`templates/index.html`](https://github.com/nurimammasri/Capstone-Flask-UI-P4DA-Algoritma-Data-Science/blob/main/templates/index.html) ada beberapa bagian yang rumpang dan harus Anda lengkapi. Untuk Notes template nya bisa di cek pada [`flask-ui-skeleton-template.ipynb`](https://github.com/nurimammasri/Capstone-Flask-UI-P4DA-Algoritma-Data-Science/blob/main/flask-ui-skeleton-template.ipynb). Beberapa bagian yang harus diperhatikan adalah sebagai berikut:
 
 ### 1. Setting Repository Github dan Environment (2 poin)
 - Repository 
@@ -60,7 +60,7 @@ pip install -r requirements.txt --user
 ```
 
 ### 2. Data Preproses and Exploratory Data Analysis (2 poin)
-Pada tahap praproses ini, Anda diminta untuk melengkapi praproses data seperti menghapus data yang duplikat, mengubah tipe data dan memodifikasi nilai data. Pada file `app.py` Anda diminta untuk melengkapi data yang rumpang tanpa mengubah alur praproses yang telah ada.
+Pada tahap praproses ini, Anda diminta untuk melengkapi praproses data seperti menghapus data yang duplikat, mengubah tipe data dan memodifikasi nilai data. Pada file [`app.py`](https://github.com/nurimammasri/Capstone-Flask-UI-P4DA-Algoritma-Data-Science/blob/main/app.py) Anda diminta untuk melengkapi data yang rumpang tanpa mengubah alur praproses yang telah ada.
 Berikut ini contoh bagian yang harus Anda lengkapi saat praproses data:
 ```
 playstore._________(subset ="_____", keep = '_____', inplace=True) 
@@ -83,7 +83,7 @@ playstore.Installs = ________.apply(lambda x: x.replace(______))
 *Notes : Anda dapat melihat contoh plot lain yang hraus dibuat/diduplikat pada repositori ini. Silahkan clone/download repositori ini. 
 
 ### 5. Build Flask App (4 poin)
-Mengacu pada poin ke empat Data Visualization di atas, selain membuat plot baru Anda harus mendemonstrasikan bagaimana cara merender plot tersebut pada aplikasi Flask dan menampilkannya pada templates / halaman html. Yang perlu Anda perhatikan adalah pada bagian `app.py`:
+Mengacu pada poin ke empat Data Visualization di atas, selain membuat plot baru Anda harus mendemonstrasikan bagaimana cara merender plot tersebut pada aplikasi Flask dan menampilkannya pada templates / halaman html. Yang perlu Anda perhatikan adalah pada bagian [`app.py`](https://github.com/nurimammasri/Capstone-Flask-UI-P4DA-Algoritma-Data-Science/blob/main/app.py):
 ```
 render_templates(__________)
 ```
@@ -91,3 +91,11 @@ dan pada `templates/index.html` Anda perlu memanggil source plot.png tempat Anda
 ```
 <img src="________________________" height="450" width=500>
 ```
+
+### 6. Run Flask App
+1. `Clone repository` tersebut ke local dengan git clone
+- Environment
+2. Buka terminal (cmd/anaconda prompt) dan activate env `conda activate <ENV>`
+3. Masuk ke folder project dan jalankan `python app.py` pada terminal, maka akan men-generate link server untuk membuka website
+4. klik pada link `Running on http://127.0.0.1:5000/` atau link yang ada pada device anda
+5. Done :)
