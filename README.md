@@ -1,4 +1,8 @@
 # Google Play Store Analytics
+
+#### **Nama : Nur Imam Masri**
+#### **Vulcan Scholarship Algoritma Academy**
+
 <img src="https://raw.githubusercontent.com/fafilia/capstone-UIFlask/master/full_capstone.png">
 
 ## Introduction
