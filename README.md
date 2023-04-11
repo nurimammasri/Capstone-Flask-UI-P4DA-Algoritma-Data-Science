@@ -93,8 +93,7 @@ dan pada `templates/index.html` Anda perlu memanggil source plot.png tempat Anda
 ```
 
 ### 6. Run Flask App
-1. `Clone repository` tersebut ke local dengan git clone
-- Environment
+1. `Clone repository` tersebut ke local dengan git clone - Environment
 2. Buka terminal (cmd/anaconda prompt) dan activate env `conda activate <ENV>`
 3. Masuk ke folder project dan jalankan `python app.py` pada terminal, maka akan men-generate link server untuk membuka website
 4. klik pada link `Running on http://127.0.0.1:5000/` atau link yang ada pada device anda
