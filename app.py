@@ -146,7 +146,7 @@ def index():
 
     X = top_selling.index
     Y = top_selling['Income']
-    fig, ax = plt.subplots()
+    fig, ax = plt.subplots(figsize=(7, 7))
     plt.title('Category Aplikasi Berbayar dengan Income Tertinggi')
     plt.xlabel('Income')
     plt.ylabel('Category')
