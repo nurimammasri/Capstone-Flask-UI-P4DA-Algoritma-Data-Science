@@ -31,7 +31,7 @@ Data yang digunakan pada capstone project ini adalah data hasil scraping dari Go
 - Numpy
 
 ## Rubrics
-Pada capstone ini, Anda diharapkan untuk dapat membangun sebuah aplikasi Flask yang fokus pada tampilan user interface. Langkah pertama yang harus Anda lakukan adalah silahkan download atau clone repositori ini. File pada repositori ini merupakan sebuah skeleton untuk membuat sebuah dashboard aplikasi Flask. Pada bagian `app.py` dan `templates/index.html` ada beberapa bagian yang rumpang dan harus Anda lengkapi. Beberapa bagian yang harus diperhatikan adalah sebagai berikut:
+Pada capstone ini, Anda diharapkan untuk dapat membangun sebuah aplikasi Flask yang fokus pada tampilan user interface. Langkah pertama yang harus Anda lakukan adalah silahkan download atau clone repositori ini. File pada repositori ini merupakan sebuah skeleton untuk membuat sebuah dashboard aplikasi Flask. Pada bagian `app.py` dan `templates/index.html` ada beberapa bagian yang rumpang dan harus Anda lengkapi. Untuk notes template nya bisa di cek pada [`flask-ui-skeleton-template.ipynb`](https://github.com/nurimammasri/Capstone-Flask-UI-P4DA-Algoritma-Data-Science/blob/main/flask-ui-skeleton-template.ipynb). Beberapa bagian yang harus diperhatikan adalah sebagai berikut:
 
 ### 1. Setting Repository Github dan Environment (2 poin)
 - Repository 
