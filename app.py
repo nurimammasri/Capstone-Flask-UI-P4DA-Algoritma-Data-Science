@@ -153,8 +153,9 @@ def index():
     my_colors = ['r', 'g', 'b', 'k', 'y', 'm', 'c']
     g = ax.barh(X, Y, color=colors)
     _, xmax = plt.xlim()
-    ax.set_xlim(0, xmax+(xmax/7))
+    ax.set_xlim(0, xmax+(xmax/8))
     ax.bar_label(g, labels=top_selling['Income_Label'])
+    plt.tight_layout()
     plt.savefig('income_order.png', bbox_inches="tight")
 
     figfile = BytesIO()
