@@ -3,7 +3,7 @@
 #### **Nama : Nur Imam Masri**
 #### **Vulcan Scholarship Algoritma Academy**
 
-<img src="https://raw.githubusercontent.com/fafilia/capstone-UIFlask/master/full_capstone.png">
+<img src="https://raw.githubusercontent.com/nurimammasri/Capstone-Flask-UI-P4DA-Algoritma-Data-Science/main/full_capstone.jpeg">
 
 ## Introduction
 Projek ini dikembangkan sebagai salah satu capstone project dari Algoritma Academy Data Analytics Specialization. Deliverables yang diharapkan adalah Anda dapat membangun sebuah aplikasi web sederhana (dashboard) menggunakan framework Flask. Capstone ini akan fokus pada tampilan user interface Flask. 
