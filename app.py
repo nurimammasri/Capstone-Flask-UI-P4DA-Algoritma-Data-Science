@@ -2,9 +2,11 @@ from flask import Flask, render_template
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
+import matplotlib
 from io import BytesIO
 import base64
 
+matplotlib.use('Agg')
 import matplotlib.cm as cm
 from matplotlib.colors import Normalize
 import matplotlib.colors as mcolors
