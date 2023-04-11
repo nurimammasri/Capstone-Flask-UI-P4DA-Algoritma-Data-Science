@@ -154,7 +154,7 @@ def index():
     g = ax.barh(X, Y, color=colors)
     _, xmax = plt.xlim()
     ax.set_xlim(0, xmax+(xmax/8))
-    ax.bar_label(g, labels=top_selling['Income_Label'])
+    ax.bar_label(g, labels=top_selling['Income_Label'], padding=10)
     plt.tight_layout()
     plt.savefig('income_order.png', bbox_inches="tight")
 
