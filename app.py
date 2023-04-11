@@ -161,7 +161,7 @@ def index():
     plt.savefig(figfile, format='png')
     figfile.seek(0)
     figdata_png = base64.b64encode(figfile.getvalue())
-    result3 = str(figdata_png)[2:-1]
+    result4 = str(figdata_png)[2:-1]
 
     # Tambahkan hasil result plot pada fungsi render_template()
     return render_template('index.html', stats=stats, result=result, result2=result2, result3=result3, result4=result4)
